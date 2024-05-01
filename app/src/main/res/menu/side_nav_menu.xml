@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    >
+
+    <item
+        android:id="@+id/sideNavHome"
+        android:icon="@drawable/baseline_home_24"
+        android:title="@string/side_nav_home_title"
+        android:checked="true"/>
+    <item
+        android:id="@+id/product_items"
+        android:title="Products">
+        <menu>
+            <item
+                android:id="@+id/addCategory"
+                android:icon="@drawable/category"
+                android:title="Manage Category"
+                android:visible="true" />
+            <item
+                android:id="@+id/addSubCategory"
+                android:icon="@drawable/subcategory"
+                android:title="Manage Sub Category"
+                android:visible="true" />
+
+            <item
+                android:id="@+id/addDish"
+                android:icon="@drawable/managedish"
+                android:title="Manage Dishes"
+                android:visible="true" />
+            <item
+                android:id="@+id/viewDish"
+                android:icon="@drawable/viewdish"
+                android:title="View Dishes"
+                android:visible="true" />
+        </menu>
+
+    </item>
+    <item
+        android:id="@+id/customer_items"
+        android:title="Customers">
+        <menu>
+            <item
+                android:id="@+id/customerView"
+                android:icon="@drawable/manageusers"
+                android:title="View Customers"
+                android:visible="true" />
+        </menu>
+
+    </item>
+    <item
+        android:id="@+id/order_items"
+        android:title="Orders">
+        <menu>
+            <item
+                android:id="@+id/orderView"
+                android:icon="@drawable/manageorder"
+                android:title="Manage Orders"
+                android:visible="true" />
+        </menu>
+    </item>
+    <item
+        android:id="@+id/branch_items"
+        android:title="Branches">
+        <menu>
+            <item
+                android:id="@+id/viewBranches"
+                android:icon="@drawable/managebranches"
+                android:title="Manage Branches"
+                android:visible="true" />
+            <item
+                android:id="@+id/addBranches"
+                android:icon="@drawable/viewbranch"
+                android:title="View Branches"
+                android:visible="true" />
+        </menu>
+
+    </item>
+
+    <group android:id="@+id/sideNavGroupAuth">
+        <item
+            android:id="@+id/sideNavLogout"
+            android:icon="@drawable/baseline_logout_24"
+            android:title="@string/side_nav_logout_title"
+            android:visible="true"/>
+    </group>
+</menu>

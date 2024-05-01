@@ -1,0 +1,119 @@
+<resources>
+    <string name="app_name">FLavourDash Admin</string>
+    <string name="map_id">1c770544e4d2ba71</string>
+    <string name="title_activity_dashboard">DashboardActivity</string>
+    <!-- Strings used for fragments for navigation -->
+    <string name="first_fragment_label">First Fragment</string>
+    <string name="second_fragment_label">Second Fragment</string>
+    <string name="next">Next</string>
+    <string name="previous">Previous</string>
+
+    <string name="rashmika_jayasooriya">Rashmika Jayasooriya</string>
+    <string name="search_hint">Search</string>
+    <string name="bottom_nav_home_title">Home</string>
+    <string name="bottom_nav_category_title">Category</string>
+    <string name="bottom_nav_cart_title">Cart</string>
+    <string name="bottom_nav_profile_title">Profile</string>
+    <string name="side_nav_home_title">Home</string>
+    <string name="side_nav_profile_title">Profile</string>
+    <string name="side_nav_orders_title">Ordres</string>
+    <string name="side_nav_wishlist_title">Wishlist</string>
+    <string name="side_nav_message_title">Message</string>
+    <string name="side_nav_settings_title">Settings</string>
+    <string name="side_nav_login_title">Login</string>
+    <string name="side_nav_logout_title">Logout</string>
+    <string name="drawer_open">Open Navigation Drawer</string>
+    <string name="drawer_close">Close Navigation Drawer</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="administrator_sign_in">Administrator Sign In</string>
+    <string name="email">Email</string>
+    <string name="password">Password</string>
+    <string name="sign_in_to_dashboard">Sign In To Dashboard</string>
+    <string name="title">Title</string>
+    <string name="description">Description</string>
+    <string name="active">Active</string>
+    <string name="close">close</string>
+    <string name="category">Category</string>
+    <string name="sub_category">Sub-category</string>
+    <string name="rating">Rating</string>
+    <string name="portions_and_prices">Portions and Prices</string>
+    <string name="dish_options">Dish Options</string>
+    <string name="dish_portion_name">Dish Portion Name</string>
+    <string name="dish_portion_price">Dish Portion Price</string>
+    <string name="update_branch_location">Update Branch Location</string>
+    <string name="your_selected_branch_location">Your Selected Branch Location</string>
+    <string name="select_a_location">Select A Location</string>
+    <string name="branch_name">Branch Name</string>
+    <string name="update_branch">Update Branch</string>
+    <string name="branches_view">Branches View</string>
+    <string name="category_description">Category Description</string>
+    <string name="select_an_image_for_the_category">Select an Image For the Category</string>
+    <string name="add_image">Add Image</string>
+    <string name="add_category">Add Category</string>
+    <string name="category_view">Category View</string>
+    <string name="category_update">Category Update</string>
+    <string name="category_name">Category Name</string>
+    <string name="update_category">Update Category</string>
+    <string name="customer_manage">Customer Manage</string>
+    <string name="dish_description">Dish Description</string>
+    <string name="select_dish_category">Select DIsh Category</string>
+    <string name="select_dish_sub_category">Select Dish Sub-Category</string>
+    <string name="add_portion_and_its_price_here">Add Portion And Its Price Here</string>
+    <string name="add_portion_price">Add Portion-Price</string>
+    <string name="add_dish_options_here">Add Dish Options Here</string>
+    <string name="enter_meal_options">Enter Meal Options</string>
+    <string name="add">Add</string>
+    <string name="add_dish_images_here">Add Dish Images Here</string>
+    <string name="save_dish">Save Dish</string>
+    <string name="dish_update">Dish Update</string>
+    <string name="dish_name">Dish Name</string>
+    <string name="update_dish">Update Dish</string>
+    <string name="view_dishes">View Dishes</string>
+    <string name="dishes">Dishes</string>
+    <string name="no_of_dishes">No. of Dishes</string>
+    <string name="customers">Customers</string>
+    <string name="no_of_customers">No. of Customers</string>
+    <string name="orders">Orders</string>
+    <string name="no_of_orders">No. of Orders</string>
+    <string name="branches">Branches</string>
+    <string name="no_of_branches">No. of Branches</string>
+    <string name="no_of_sub_categories">No. of Sub Categories</string>
+    <string name="no_of_categories">No of Categories</string>
+    <string name="add_branch_location">Add Branch Location</string>
+    <string name="save_branch">Save Branch</string>
+    <string name="sub_category_add">Sub Category Add</string>
+    <string name="sub_category_name">Sub-Category Name</string>
+    <string name="sub_category_description">Sub-Category Description</string>
+    <string name="select_an_image_for_the_sub_category">Select an Image For the Sub Category</string>
+    <string name="add_sub_category">Add Sub-Category</string>
+    <string name="sub_category_view">Sub Category View</string>
+    <string name="sub_category_update">Sub Category Update</string>
+    <string name="select_image_to_update">Select Image To Update</string>
+    <string name="update_sub_category">Update Sub-Category</string>
+    <string name="portion">Portion</string>
+    <string name="price">Price</string>
+    <string name="_1">1</string>
+    <string name="name">Name</string>
+    <string name="x1">x1</string>
+    <string name="order_id">Order Id:-</string>
+    <string name="textview">TextView</string>
+    <string name="total_amount">Total Amount:-</string>
+    <string name="ordered_time">Ordered Time:-</string>
+    <string name="address">Address:-</string>
+    <string name="order_requests">Order Requests:-</string>
+    <string name="pending">Pending</string>
+    <string name="accept">Accept</string>
+    <string name="reject">Reject</string>
+    <string name="delivered">Delivered</string>
+    <string name="admin">Admin</string>
+    <string name="mobile">Mobile</string>
+    <string name="current_orders">Current Orders</string>
+
+    <string-array name="categories">
+        <item>Category 1</item>
+        <item>Category 2</item>
+        <!-- Add more categories here -->
+    </string-array>
+
+</resources>

@@ -1,0 +1,220 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_columnWeight="1"
+        android:layout_margin="10dp"
+        app:cardCornerRadius="16dp"
+        app:cardElevation="8dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <androidx.appcompat.widget.LinearLayoutCompat
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:padding="10dp">
+
+            <androidx.appcompat.widget.LinearLayoutCompat
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <TextView
+                    android:id="@+id/textViewO1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="7dp"
+                    android:text="@string/order_id"
+                    android:textAppearance="?attr/textAppearanceHeadline6"
+                    android:textSize="15sp"
+                    tools:layout_editor_absoluteX="80dp"
+                    tools:layout_editor_absoluteY="38dp" />
+
+                <TextView
+                    android:id="@+id/orderIdView"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="35dp"
+                    android:layout_marginBottom="7dp"
+                    android:text="@string/textview"
+                    android:textAlignment="textEnd"
+                    android:textAppearance="?attr/textAppearanceHeadline6"
+                    tools:layout_editor_absoluteX="80dp"
+                    tools:layout_editor_absoluteY="38dp" />
+            </androidx.appcompat.widget.LinearLayoutCompat>
+
+            <!--        <TextView-->
+            <!--            android:id="@+id/orderStatusView"-->
+            <!--            android:layout_width="wrap_content"-->
+            <!--            android:layout_height="wrap_content"-->
+            <!--            android:text="TextView"-->
+            <!--            tools:layout_editor_absoluteX="80dp"-->
+            <!--            tools:layout_editor_absoluteY="38dp" />-->
+
+            <androidx.appcompat.widget.LinearLayoutCompat
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <TextView
+                    android:id="@+id/textViewO2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="7dp"
+                    android:text="@string/total_amount"
+                    android:textAppearance="?attr/textAppearanceHeadline6"
+                    android:textSize="15sp"
+                    tools:layout_editor_absoluteX="80dp"
+                    tools:layout_editor_absoluteY="38dp" />
+
+                <TextView
+                    android:id="@+id/orderAmountView"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/textview"
+                    android:textAlignment="textEnd"
+                    tools:layout_editor_absoluteX="80dp"
+                    tools:layout_editor_absoluteY="38dp" />
+            </androidx.appcompat.widget.LinearLayoutCompat>
+
+            <androidx.appcompat.widget.LinearLayoutCompat
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <TextView
+                    android:id="@+id/textViewO3"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="7dp"
+                    android:text="@string/ordered_time"
+                    android:textAppearance="?attr/textAppearanceHeadline6"
+                    android:textSize="15sp"
+                    tools:layout_editor_absoluteX="80dp"
+                    tools:layout_editor_absoluteY="38dp" />
+
+                <TextView
+                    android:id="@+id/orderTimeView"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/textview"
+                    android:textAlignment="textEnd"
+                    tools:layout_editor_absoluteX="80dp"
+                    tools:layout_editor_absoluteY="38dp" />
+            </androidx.appcompat.widget.LinearLayoutCompat>
+
+            <androidx.appcompat.widget.LinearLayoutCompat
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <TextView
+                    android:id="@+id/textViewO4"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="7dp"
+                    android:text="@string/address"
+                    android:textAppearance="?attr/textAppearanceHeadline6"
+                    android:textSize="15sp"
+                    tools:layout_editor_absoluteX="80dp"
+                    tools:layout_editor_absoluteY="38dp" />
+
+                <TextView
+                    android:id="@+id/orderAddressView"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="39dp"
+                    android:text="@string/textview"
+                    android:textAlignment="textEnd"
+                    tools:layout_editor_absoluteX="80dp"
+                    tools:layout_editor_absoluteY="38dp" />
+            </androidx.appcompat.widget.LinearLayoutCompat>
+
+            <androidx.appcompat.widget.LinearLayoutCompat
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <TextView
+                    android:id="@+id/textViewO5"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="7dp"
+                    android:text="@string/order_requests"
+                    android:textAppearance="?attr/textAppearanceHeadline6"
+                    android:textSize="15sp"
+                    tools:layout_editor_absoluteX="80dp"
+                    tools:layout_editor_absoluteY="38dp" />
+
+                <TextView
+                    android:id="@+id/orderRequestView"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/textview"
+                    android:textAlignment="textEnd"
+                    tools:layout_editor_absoluteX="80dp"
+                    tools:layout_editor_absoluteY="38dp" />
+            </androidx.appcompat.widget.LinearLayoutCompat>
+
+            <com.google.android.material.chip.ChipGroup
+                android:id="@+id/orderStatusGroup"
+                style="@style/Widget.MaterialComponents.ChipGroup"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <com.google.android.material.chip.Chip
+                    android:id="@+id/pendingChip"
+                    style="@style/Widget.Material3.Chip.Filter"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:checked="true"
+                    android:clickable="false"
+                    android:text="@string/pending" />
+
+                <com.google.android.material.chip.Chip
+                    android:id="@+id/acceptChip"
+                    style="@style/Widget.Material3.Chip.Filter"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/accept" />
+
+
+                <com.google.android.material.chip.Chip
+                    android:id="@+id/rejectChip"
+                    style="@style/Widget.Material3.Chip.Filter"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/reject" />
+
+                <com.google.android.material.chip.Chip
+                    android:id="@+id/deliveredChip"
+                    style="@style/Widget.Material3.Chip.Filter"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/delivered"
+                    android:visibility="gone" />
+
+            </com.google.android.material.chip.ChipGroup>
+
+            <View
+                android:id="@+id/divider1"
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:layout_marginTop="4dp"
+                android:background="?android:attr/listDivider" />
+
+            <androidx.recyclerview.widget.RecyclerView
+                android:id="@+id/orderItemsView"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                app:layoutManager="androidx.recyclerview.widget.LinearLayoutManager"/>
+
+        </androidx.appcompat.widget.LinearLayoutCompat>
+    </androidx.cardview.widget.CardView>
+</androidx.constraintlayout.widget.ConstraintLayout>
+
