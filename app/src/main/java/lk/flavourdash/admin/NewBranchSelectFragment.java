@@ -56,7 +56,7 @@ public class NewBranchSelectFragment extends Fragment implements OnMapReadyCallb
     private MarkerOptions selectedLocationMarkerOptions;
     private TextView selectedLocationTextView;
     private FirebaseFirestore firebaseFirestore;
-    private final String API_KEY="AIzaSyDVPd1-bmrSDjSwbjdpfZoR3wl-HQnIxCw";
+    private final String API_KEY="***";
 
     public NewBranchSelectFragment() {
     }

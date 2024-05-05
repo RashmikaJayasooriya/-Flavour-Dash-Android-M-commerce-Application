@@ -39,6 +39,6 @@ For **administrators**:
 - **Glide**: Image loading framework.
 - **Java**: Programming language.
 - **Android Studio**: Development environment for both user and admin applications.
-- 
+
 ## Contact
 For any inquiries or contributions, please contact Rashmika Jayasooriya at uvindurashmika20010405@outlook.com or call 0766351645 or visit https://rashmikajayasooriya.great-site.net for more information.
